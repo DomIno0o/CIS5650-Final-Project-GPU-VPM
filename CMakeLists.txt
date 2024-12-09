@@ -56,6 +56,7 @@ set(headers
     src/wing.h
     src/lean_vtk.hpp
     src/vortexringsimulation.hpp
+    src/roundjetsimulation.hpp
     )
 
 set(sources
@@ -64,6 +65,7 @@ set(sources
     src/wing.cpp
     src/lean_vtk.cpp
     src/vortexringsimulation.cpp
+    src/roundjetsimulation.cpp
     )
 
 list(SORT headers)
